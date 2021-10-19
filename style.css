@@ -20,6 +20,7 @@
     --black2: #444;
     --white: #333;
     --white2: #444;
+    background-color: var(--white);
 }
 
 body {
@@ -491,7 +492,21 @@ p {
     width: 100%;
     max-width: 700px;
     margin-top: 20px;
+
 }
+
+/* menghilangkan spinner inputan angka  */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+/* ---------------- */
 
 .contact .contactForm .row {
     width: 100%;
