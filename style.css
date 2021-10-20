@@ -103,8 +103,8 @@ body {
 .main .topbar {
     position: fixed;
     top: 0;
-    width: calc(100% - 300px);
-    left: 300px;
+    width: calc(100% - 510px);
+    left: 510px;
     background: var(--white2);
     border-bottom: 1px solid rgba(0, 0, 0, 0.05);
     height: 60px;
@@ -117,7 +117,9 @@ body {
 }
 
 .dark .main .topbar {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    margin: 0px 2px;
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.5);
+    border-left: 0.5px solid rgba(0, 0, 0, 0.5);
 }
 
 .main .topbar.active {
@@ -217,14 +219,6 @@ p {
 .dark .btn:hover {
     background: #2196f3;
 }
-
-/* .mainWebsite{
-    margin: 20px 0;
-    color: #111;
-    text-decoration: none;
-} */
-
-/* pindahkan yang atas ke css index cv dan tambahkan icon arrow left di index*/
 
 .socialMedia {
     position: absolute;
@@ -614,6 +608,11 @@ input[type=number] {
 @media (max-width: 992px) {
     .themeSwitch {
         left: 20px;
+    }
+
+    .main .topbar {
+        width: 100%;
+        left: 0px;
     }
 
     .navigation {
