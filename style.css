@@ -308,6 +308,21 @@ p {
     max-width: 100%;
 }
 
+.skill {
+    width: 100%;
+}
+
+.skill .content {
+    padding-top: 10%;
+}
+
+.skill .content img {
+    position: center;
+    width: 11%;
+    margin: 12px;
+
+}
+
 .services .content {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
